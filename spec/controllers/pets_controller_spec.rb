@@ -39,7 +39,6 @@ describe "Pets Controller" do
       expect(@pet.name).to eq("Michael")
       #binding.pry
       expect(@pet.owner.name).to eq("Cricky")
-     
     end
 
       it " creates a new pet and a new owner" do
